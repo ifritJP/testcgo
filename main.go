@@ -3,5 +3,5 @@ package testcgo
 import "fmt";
 
 func Sub() {
-    fmt.Println( "hoge:" )
+    fmt.Println( "hogea:" )
 }
