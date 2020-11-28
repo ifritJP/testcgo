@@ -2,6 +2,6 @@ package testcgo
 
 import "fmt";
 
-func sub() {
+func Sub() {
     fmt.Println( "hoge:" )
 }
