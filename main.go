@@ -3,6 +3,8 @@ package testcgo
 // #include <string.h>
 // #include <stdlib.h>
 // #cgo pkg-config: lua-5.3
+// #include <lauxlib.h>
+// #include <lualib.h>
 import "C"
 
 import "fmt";
