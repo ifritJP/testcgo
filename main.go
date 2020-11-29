@@ -2,7 +2,7 @@ package testcgo
 
 // #include <string.h>
 // #include <stdlib.h>
-// #cgo CFLAGS: -I/usr/include/lua5.3
+// #cgo CFLAGS: -Ilua_link/inc
 // #cgo LDFLAGS: -ldl -lm -llua5.3
 // #include <lauxlib.h>
 // #include <lualib.h>
