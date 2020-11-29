@@ -18,13 +18,13 @@ type lua_int = C.longlong
 type lua_num = C.double
 type lua_bool = C.int
 
-func luaL_newstate() *C.lua_State {
+func LuaL_newstate() *C.lua_State {
     return C.luaL_newstate()
 }
-func lua_close(vm *C.lua_State) {
+func Lua_close(vm *C.lua_State) {
     C.lua_close( vm )
 }
-func lua_version(vm *C.lua_State) lua_num {
+func Lua_version(vm *C.lua_State) lua_num {
     return *C.lua_version( vm )
 }
 
